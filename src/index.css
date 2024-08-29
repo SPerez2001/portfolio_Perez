@@ -43,6 +43,8 @@ body {
   margin: 5rem 5rem;
   align-items: center;
   text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 0 50px #afafaf;
 }
 
 #Resume {
@@ -50,6 +52,8 @@ body {
   margin: 5rem 5rem;
   align-items: center;
   text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 0 50px #afafaf;
 }
 
 #Certifications {
@@ -57,6 +61,8 @@ body {
   margin: 5rem 5rem;
   align-items: center;
   text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 0 50px #afafaf;
 }
 
 #Certifications2 {
@@ -64,6 +70,8 @@ body {
   margin: 5rem 5rem;
   align-items: center;
   text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 0 50px #afafaf;
 }
 
 #Certificates {
@@ -71,6 +79,8 @@ body {
   margin: 5rem 5rem;
   align-items: center;
   text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 0 50px #afafaf;
 }
 
 #Projects {
@@ -78,6 +88,8 @@ body {
   margin: 5rem 5rem;
   align-items: center;
   text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 0 50px #afafaf;
 }
 
 #Projects2 {
@@ -85,6 +97,8 @@ body {
   margin: 5rem 5rem;
   align-items: center;
   text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 0 50px #afafaf;
 }
 
 #Projects3 {
