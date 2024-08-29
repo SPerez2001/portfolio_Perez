@@ -2,10 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
  
 function App() {
     return (
@@ -13,19 +11,17 @@ function App() {
         
         <div className="container" id="mainhome">
             <Navbar expand="lg" className="navbar-light bg-light" id ="navb"> 
-                <Container>
-                    <Navbar.Brand href="#home">Portfolio_Perez</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#Resume">Resume</Nav.Link>
-                            <Nav.Link href="#Certifications">Certifications</Nav.Link>
-                            <Nav.Link href="#Certificates">Certificates</Nav.Link>
-                            <Nav.Link href="#Projects">Projects</Nav.Link>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Container>
+                <Navbar.Brand href="#home">Portfolio_Perez</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="me-auto">
+                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="#Resume">Resume</Nav.Link>
+                        <Nav.Link href="#Certifications">Certifications</Nav.Link>
+                        <Nav.Link href="#Certificates">Certificates</Nav.Link>
+                        <Nav.Link href="#Projects">Projects</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
             </Navbar>
             
             <div classname="container" id="maincon">
