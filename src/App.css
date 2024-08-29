@@ -23,6 +23,10 @@ body {
 
 }
 
+#mainhome {
+  margin: 0;
+}
+
 #Home {
   padding: 3rem 3rem;
   margin: 5rem 5rem;
