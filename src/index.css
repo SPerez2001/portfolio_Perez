@@ -24,8 +24,12 @@ a:hover {
 
 body {
   margin: 0;
-  
+
 }
+
+#navb {
+  padding: 1rem 2rem;
+} 
 
 h1 {
   font-size: 3.2em;
