@@ -9,7 +9,7 @@ function App() {
         <>
         
         <div className="container" id="mainhome">
-            <Navbar expand="lg" className="bg-body-tertiary">
+            <Navbar expand="lg" className="navbar-light bg-light" id ="navb"> 
                 <Container>
                     <Navbar.Brand href="#home">Portfolio_Perez</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
