@@ -26,10 +26,10 @@ function App() {
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
+                
             </Navbar>
-            
-            <div classname="container" id="maincon">
-                <div classname="container" id="Home">
+            <Container id="maincon" >
+                <Container id="Home">
                     <div classname="row">
                         <div classname="col" style={{ paddingTop: "5rem" }}>
                             <h1> Sheena S. Perez</h1>
@@ -77,8 +77,9 @@ function App() {
                             </h1>
                         </div>
                     </div>
-                </div>
-                <div classname="container" id="Resume">
+                </Container>
+                <Container id="Resume">
+                    
                     <h1> Resume</h1>
                     <img
                         src={"/img/resume.png"}
@@ -86,9 +87,10 @@ function App() {
                         width={400}
                         height={600}
                         style={{ margin: "auto" }}
-                    />
-                </div>
-            </div>
+                    />        
+                </Container>
+            </Container>
+            
         </div>
         </>
     )
