@@ -6,6 +6,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import umlog from "../img/umlog.png";
+import resume from "/img/resume.png";
  
 function App() {
     return (
@@ -66,7 +68,7 @@ function App() {
                         </div>
                         <div classname="col">
                             <img
-                                src="/img/umlog.png"
+                                src={umlog}
                                 alt="UM LOGO"
                                 width={250}
                                 height={250}
@@ -82,7 +84,7 @@ function App() {
                     
                     <h1> Resume</h1>
                     <img
-                        src={"/img/resume.png"}
+                        src={resume}
                         alt="Resume"
                         width={400}
                         height={600}
