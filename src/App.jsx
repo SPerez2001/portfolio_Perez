@@ -32,8 +32,8 @@ function App() {
             </Navbar>
             <Container id="maincon" >
                 <Container id="Home">
-                    <div classname="row">
-                        <div classname="col" style={{ paddingTop: "5rem" }}>
+                    <div classname="col">
+                        <div classname="row" style={{ paddingTop: "5rem" }}>
                             <h1> Sheena S. Perez</h1>
                             <h6> BS - Information Technology</h6>
                             <hr
@@ -46,8 +46,8 @@ function App() {
                                 }}
                             />
                             <div classname="container" style={{ width: 300, height: 200 }}>
-                                <div classname="row" style={{ marginTop: "1rem" }}>
-                                    <div classname="col">
+                                <div classname="col" style={{ marginTop: "1rem" }}>
+                                    <div classname="row">
                                         <a href="https://www.facebook.com/natsumeyuujinchou23">
                                         <i
                                             classname="fa-brands fa-facebook"
@@ -55,7 +55,7 @@ function App() {
                                         />
                                         </a>
                                     </div>
-                                    <div classname="col">
+                                    <div classname="row">
                                         <a href="https://www.linkedin.com/in/sheena-perez-b0a514324/">
                                         <i
                                             classname="fa-brands fa-github"
@@ -66,7 +66,7 @@ function App() {
                                 </div>
                             </div>
                         </div>
-                        <div classname="col">
+                        <div classname="row">
                             <img
                                 src={umlog}
                                 alt="UM LOGO"

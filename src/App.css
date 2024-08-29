@@ -16,6 +16,7 @@ body {
 
 #mainhome {
   margin: auto;
+  max-width: 2000px;
 }
 
 #maincon {
