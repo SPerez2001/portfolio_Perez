@@ -24,7 +24,11 @@ a:hover {
 
 body {
   margin: 0;
-  background-color: black;
+}
+
+#maincon {
+  margin: auto;
+  align-items: center;
 }
 
 #navb {
