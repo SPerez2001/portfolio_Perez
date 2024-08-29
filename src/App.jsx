@@ -13,17 +13,19 @@ function App() {
         
         <div className="container" id="mainhome">
             <Navbar expand="lg" className="navbar-light bg-light" id ="navb"> 
-                <Navbar.Brand href="#home">Portfolio_Perez</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#Resume">Resume</Nav.Link>
-                        <Nav.Link href="#Certifications">Certifications</Nav.Link>
-                        <Nav.Link href="#Certificates">Certificates</Nav.Link>
-                        <Nav.Link href="#Projects">Projects</Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
+                <Container>
+                    <Navbar.Brand href="#home">Portfolio_Perez</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="me-auto">
+                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link href="#Resume">Resume</Nav.Link>
+                            <Nav.Link href="#Certifications">Certifications</Nav.Link>
+                            <Nav.Link href="#Certificates">Certificates</Nav.Link>
+                            <Nav.Link href="#Projects">Projects</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
             </Navbar>
             
             <div classname="container" id="maincon">
