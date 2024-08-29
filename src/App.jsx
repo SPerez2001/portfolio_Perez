@@ -9,51 +9,22 @@ function App() {
         <>
         
         <div className="container" id="mainhome">
-            <Nav classname="navbar navbar-expand-lg navbar-light bg-light" id="navb">
-                <a classname="navbar-brand" href="#">
-                Portfolio_Perez
-                </a>
-                <button
-                classname="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-                >
-                <span classname="navbar-toggler-icon" />
-                </button>
-                <div classname="collapse navbar-collapse" id="navbarNav">
-                    <ul classname="navbar-nav">
-                        <li classname="nav-item active">
-                        <a classname="nav-link" href="#">
-                            Home <span classname="sr-only">(current)</span>
-                        </a>
-                        </li>
-                        <li classname="nav-item">
-                        <a classname="nav-link" href="#Resume">
-                            Resume
-                        </a>
-                        </li>
-                        <li classname="nav-item">
-                        <a classname="nav-link" href="#Certifications">
-                            Certifications
-                        </a>
-                        </li>
-                        <li classname="nav-item">
-                        <a classname="nav-link" href="#Certificates">
-                            Certificates
-                        </a>
-                        </li>
-                        <li classname="nav-item">
-                        <a classname="nav-link" href="#Projects">
-                            Projects
-                        </a>
-                        </li>
-                    </ul>
-                </div>
-            </Nav>
+            <Navbar expand="lg" className="bg-body-tertiary">
+                <Container>
+                    <Navbar.Brand href="#home">Portfolio_Perez</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="me-auto">
+                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link href="#Resume">Resume</Nav.Link>
+                            <Nav.Link href="#Certifications">Certifications</Nav.Link>
+                            <Nav.Link href="#Certificates">Certificates</Nav.Link>
+                            <Nav.Link href="#Projects">Projects</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
+            
             <div classname="container" id="maincon">
                 <div classname="container" id="Home">
                     <div classname="row">
