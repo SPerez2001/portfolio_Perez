@@ -26,6 +26,10 @@ body {
   margin: 0;
 }
 
+#navbarNav {
+  margin-right: 0;
+}
+
 #maincon {
   margin: auto;
   align-items: center;
