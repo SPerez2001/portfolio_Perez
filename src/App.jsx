@@ -54,7 +54,7 @@ export default function App() {
                         </div>
                         <div class="col">
                             <img src="/img/umlog.png" alt="UM LOGO" width="250" height="250" style="margin-top: 1rem; margin-bottom: 1rem;"> </img>
-                            <h1 style="margin: auto; " > { ... }</h1>
+                            <h1 style="margin: auto; " > { "{ ... }" } </h1>
                         </div>
                     </div>
                 </div>
