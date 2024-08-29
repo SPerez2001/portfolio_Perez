@@ -144,31 +144,32 @@ function App() {
                         </Col>
                     </Row>
                 </Container>
+                <Container id = "Certificates">
+                    <h1 > Certificates</h1>
+                    <Row style={{ marginTop: "2rem" }}>
+                        <Col>
+                        <img
+                                    src={codeurfut}
+                                    alt="code your future"
+                                    width={400}
+                                    height={300}
+                                    style={{ margin: "auto" }}
+                                />
+                        </Col>
+                        <Col>
+                        <img
+                                    src={publicdef}
+                                    alt="public defense"
+                                    width={400}
+                                    height={300}
+                                    style={{ margin: "auto" }}
+                                />
+                        </Col>
+                    </Row>
+                </Container>
             </Container>
             
-            <Container id = "Certificates">
-                <h1 > Certificates</h1>
-                <Row style={{ marginTop: "2rem" }}>
-                    <Col>
-                    <img
-                                src={codeurfut}
-                                alt="code your future"
-                                width={400}
-                                height={300}
-                                style={{ margin: "auto" }}
-                            />
-                    </Col>
-                    <Col>
-                    <img
-                                src={publicdef}
-                                alt="public defense"
-                                width={400}
-                                height={300}
-                                style={{ margin: "auto" }}
-                            />
-                    </Col>
-                </Row>
-            </Container>
+            
             <Container>
                 <Row>
                     <Col>
