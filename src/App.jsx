@@ -9,7 +9,7 @@ function App() {
         <>
         
         <div className="container" id="mainhome">
-            <nav classname="navbar navbar-expand-lg navbar-light bg-light" id="navb">
+            <Nav classname="navbar navbar-expand-lg navbar-light bg-light" id="navb">
                 <a classname="navbar-brand" href="#">
                 Portfolio_Perez
                 </a>
@@ -53,7 +53,7 @@ function App() {
                         </li>
                     </ul>
                 </div>
-            </nav>
+            </Nav>
             <div classname="container" id="maincon">
                 <div classname="container" id="Home">
                     <div classname="row">
