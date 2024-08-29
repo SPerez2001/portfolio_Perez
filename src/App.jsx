@@ -8,6 +8,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import umlog from "../img/umlog.png";
 import resume from "/img/resume.png";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
  
 function App() {
     return (
@@ -32,8 +34,8 @@ function App() {
             </Navbar>
             <Container id="maincon" >
                 <Container id="Home">
-                    <div classname="col">
-                        <div classname="row" style={{ paddingTop: "5rem" }}>
+                    <Row>
+                        <Col style={{ paddingTop: "5rem" }}>
                             <h1> Sheena S. Perez</h1>
                             <h6> BS - Information Technology</h6>
                             <hr
@@ -45,28 +47,27 @@ function App() {
                                 fontSize: 5
                                 }}
                             />
-                            <div classname="container" style={{ width: 300, height: 200 }}>
-                                <div classname="col" style={{ marginTop: "1rem" }}>
-                                    <div classname="row">
+                            <Container style={{ width: 300, height: 200 }}>
+                                <Row style={{ marginTop: "1rem" }}>
+                                    <Col>
                                         <a href="https://www.facebook.com/natsumeyuujinchou23">
-                                        <i
-                                            classname="fa-brands fa-facebook"
-                                            style={{ fontSize: 48, color: "black" }}
-                                        />
+                                            <i
+                                                classname="fa-brands fa-facebook"
+                                                style={{ fontSize: 48, color: "black" }}
+                                            />
                                         </a>
-                                    </div>
-                                    <div classname="row">
+                                    </Col>
+                                    <Col>
                                         <a href="https://www.linkedin.com/in/sheena-perez-b0a514324/">
-                                        <i
-                                            classname="fa-brands fa-github"
-                                            style={{ fontSize: 48, color: "black" }}
-                                        />
+                                            <i
+                                                classname="fa-brands fa-github"
+                                                style={{ fontSize: 48, color: "black" }}
+                                            />
                                         </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div classname="row">
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </Col>
                             <img
                                 src={umlog}
                                 alt="UM LOGO"
@@ -77,8 +78,9 @@ function App() {
                             <h1 style={{ margin: "auto" }}>
                                 "{"{"} ... {"}"}"
                             </h1>
-                        </div>
-                    </div>
+                        <Col>
+                        </Col>
+                    </Row>
                 </Container>
                 <Container id="Resume">
                     
