@@ -149,10 +149,10 @@ export function StickyNavbar() {
       </Navbar>
       <div className="mx-auto max-w-screen-md py-12">
         
-        <Typography variant="h2" color="blue-gray" className="mb-2">
+        <Typography variant="h2" color="black" className="mb-2">
           What is Material Tailwind
         </Typography>
-        <Typography color="gray" className="font-normal">
+        <Typography color="black" className="font-normal">
           Can you help me out? you will get a lot of free exposure doing this
           can my website be in english?. There is too much white space do less
           with more, so that will be a conversation piece can you rework to make
