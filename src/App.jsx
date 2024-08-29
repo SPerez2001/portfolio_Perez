@@ -197,4 +197,4 @@ export function NavbarDefault() {
   );
 } 
 
-export default App
+
