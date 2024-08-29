@@ -6,6 +6,11 @@
   padding: 2rem;
 }
 
+#navb {
+  margin-top: 0;
+  background-color: aqua;
+} 
+
 .logo {
   height: 6em;
   padding: 1.5em;
