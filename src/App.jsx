@@ -107,7 +107,7 @@ function App() {
                 <div classname="container" id="Resume">
                     <h1> Resume</h1>
                     <img
-                        src={require('/img/resume.png')}
+                        src={"/img/resume.png"}
                         alt="Resume"
                         width={400}
                         height={600}
