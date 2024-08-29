@@ -24,35 +24,53 @@ a:hover {
 
 body {
   margin: 0;
-
+  background-color: black;
 }
 
 #navb {
   padding: 1rem 2rem;
+  color: white;
+
+}
+
+#Home {
+  background-color: #c074ff;
+  padding: 3rem 3rem;
+  margin: 5rem 5rem;
+  align-items: center;
+  text-align: center;
 }
 
 #Resume {
   background-color: #747bff;
   padding: 3rem 3rem;
   margin: 5rem 5rem;
+  align-items: center;
+  text-align: center;
 }
 
 #Certifications {
   background-color: #74d3ff;
   padding: 3rem 3rem;
   margin: 5rem 5rem;
+  align-items: center;
+  text-align: center;
 }
 
 #Certificates {
   background-color: #74ffba;
   padding: 3rem 3rem;
   margin: 5rem 5rem;
+  align-items: center;
+  text-align: center;
 }
 
 #Projects {
   background-color: #94ff74;
   padding: 3rem 3rem;
   margin: 5rem 5rem;
+  align-items: center;
+  text-align: center;
 }
 
 h1 {
