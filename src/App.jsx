@@ -7,6 +7,7 @@ import { navbar, Navbar } from '@material-tailwind/react'
 export default function App() {
     return (
         <>
+        <body>
             <nav class="navbar navbar-expand-lg navbar-light bg-light" id ="navb">
                 <a class="navbar-brand" href="#">Portfolio_Perez</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,8 +63,7 @@ export default function App() {
                     <img src="/img/resume.png" alt="Resume" width="400" height="600" style="margin: auto;"> </img>
                 </div>
             </div>
-            
-        
+        </body>
         </>
     )
   }
