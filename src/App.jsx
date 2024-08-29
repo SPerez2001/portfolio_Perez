@@ -14,6 +14,8 @@ import java from "/img/javacert.png";
 import database from "/img/databasecert.png";
 import networksec from "/img/networkseccert.png"
 import nc2 from "/img/nc2cert.png";
+import codeurfut from "/img/codeurfut.png";
+import publicdef from "/img/publicdef.jpg";
  
 function App() {
     return (
@@ -97,52 +99,85 @@ function App() {
                         style={{ margin: "auto" }}
                     />        
                 </Container>
+                <Container id = "Certifications">
+                    <h1 > Certifications</h1>
+                    <Row style={{ marginTop: "2rem" }}>
+                        <Col>
+                            <img
+                                src={java}
+                                alt="Java"
+                                width={400}
+                                height={300}
+                                style={{ margin: "auto" }}
+                            /> 
+                        </Col>
+                        <Col>
+                        <img
+                                src={database}
+                                alt="Database"
+                                width={400}
+                                height={300}
+                                style={{ margin: "auto" }}
+                            />
+                        </Col>
+                    </Row>
+                </Container>
+                <Container id = "Certifications2">
+                    <Row style={{ marginTop: "2rem" }}>
+                        <Col>
+                            <img
+                                src={networksec}
+                                alt="Network Security"
+                                width={400}
+                                height={300}
+                                style={{ margin: "auto" }}
+                            /> 
+                        </Col>
+                        <Col>
+                        <img
+                                src={nc2}
+                                alt="NC 2"
+                                width={300}
+                                height={400}
+                                style={{ margin: "auto" }}
+                            />
+                        </Col>
+                    </Row>
+                </Container>
             </Container>
-            <Container id = "Certifications">
-                <h1 > Certifications</h1>
+            
+            <Container id = "Certificates">
+                <h1 > Certificates</h1>
                 <Row style={{ marginTop: "2rem" }}>
                     <Col>
-                        <img
-                            src={java}
-                            alt="Java"
-                            width={400}
-                            height={300}
-                            style={{ margin: "auto" }}
-                        /> 
+                    <img
+                                src={codeurfut}
+                                alt="code your future"
+                                width={400}
+                                height={300}
+                                style={{ margin: "auto" }}
+                            />
                     </Col>
                     <Col>
                     <img
-                            src={database}
-                            alt="Database"
-                            width={400}
-                            height={300}
-                            style={{ margin: "auto" }}
-                        />
+                                src={publicdef}
+                                alt="public defense"
+                                width={400}
+                                height={300}
+                                style={{ margin: "auto" }}
+                            />
                     </Col>
                 </Row>
             </Container>
-            <Container id = "Certifications2">
-                <Row style={{ marginTop: "2rem" }}>
+            <Container>
+                <Row>
                     <Col>
-                        <img
-                            src={networksec}
-                            alt="Network Security"
-                            width={400}
-                            height={300}
-                            style={{ margin: "auto" }}
-                        /> 
                     </Col>
                     <Col>
-                    <img
-                            src={nc2}
-                            alt="NC 2"
-                            width={300}
-                            height={400}
-                            style={{ margin: "auto" }}
-                        />
                     </Col>
                 </Row>
             </Container>
+            
         </div>
         </>
     )
