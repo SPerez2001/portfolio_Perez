@@ -29,7 +29,31 @@ body {
 
 #navb {
   padding: 1rem 2rem;
-} 
+}
+
+#Resume {
+  background-color: #747bff;
+  padding: 3rem 3rem;
+  margin: 5rem 5rem;
+}
+
+#Certifications {
+  background-color: #74d3ff;
+  padding: 3rem 3rem;
+  margin: 5rem 5rem;
+}
+
+#Certificates {
+  background-color: #74ffba;
+  padding: 3rem 3rem;
+  margin: 5rem 5rem;
+}
+
+#Projects {
+  background-color: #94ff74;
+  padding: 3rem 3rem;
+  margin: 5rem 5rem;
+}
 
 h1 {
   font-size: 3.2em;
