@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { navbar, Navbar } from '@material-tailwind/react'
  
-export default function App() {
+function App() {
     return (
         <>
         <body>
@@ -67,3 +67,5 @@ export default function App() {
         </>
     )
   }
+
+  export default App; 
