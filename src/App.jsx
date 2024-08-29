@@ -27,7 +27,7 @@ export function StickyNavbar() {
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
+        color="black"
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
@@ -37,7 +37,7 @@ export function StickyNavbar() {
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
+        color="black"
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
@@ -47,7 +47,7 @@ export function StickyNavbar() {
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
+        color="black"
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
@@ -57,7 +57,7 @@ export function StickyNavbar() {
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
+        color="black"
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
@@ -74,6 +74,7 @@ export function StickyNavbar() {
           <Typography
             as="a"
             href="#"
+            color='black'
             className="mr-4 cursor-pointer py-1.5 font-medium"
           >
             Material Tailwind
@@ -84,6 +85,7 @@ export function StickyNavbar() {
               <Button
                 variant="text"
                 size="sm"
+                color='black'
                 className="hidden lg:inline-block"
               >
                 <span>Log In</span>
@@ -91,6 +93,7 @@ export function StickyNavbar() {
               <Button
                 variant="gradient"
                 size="sm"
+                color='black'
                 className="hidden lg:inline-block"
               >
                 <span>Sign in</span>
