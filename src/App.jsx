@@ -34,7 +34,7 @@ function App() {
             </Navbar>
             <Container id="maincon" >
                 <Container id="Home">
-                    <Row>
+                    <Row style={{ display: "inline" }}>
                         <Col style={{ paddingTop: "5rem" }}>
                             <h1> Sheena S. Perez</h1>
                             <h6> BS - Information Technology</h6>
@@ -48,7 +48,7 @@ function App() {
                                 }}
                             />
                             <Container style={{ width: 300, height: 200 }}>
-                                <Row style={{ marginTop: "1rem" }}>
+                                <Row style={{ marginTop: "1rem", display: "inline" }}>
                                     <Col>
                                         <a href="https://www.facebook.com/natsumeyuujinchou23">
                                             <i
